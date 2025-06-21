@@ -1,7 +1,14 @@
 package com.salah.springRest.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "vendor_cloud")
 public class VendorCloud {
     private String name;
+    @Id
     private String id;
     private String address;
     private String phone;
