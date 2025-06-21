@@ -2,7 +2,6 @@ package com.salah.springRest.servic;
 
 import com.salah.springRest.model.VendorCloud;
 import com.salah.springRest.repo.VendorRepo;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

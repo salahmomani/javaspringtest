@@ -1,7 +1,6 @@
 package com.salah.springRest.servic;
 
 import com.salah.springRest.model.VendorCloud;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 public interface VendorServiceInterface {
