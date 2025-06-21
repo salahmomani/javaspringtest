@@ -27,7 +27,7 @@ public class VendorService implements VendorServiceInterface {
     public String updateCloudVendor(VendorCloud vendorCloud) {
         //add more after final work
         vendorRepo.save(vendorCloud);
-        return "Vendor updated";
+        return "Vendor  updated";
     }
 
     @Override
